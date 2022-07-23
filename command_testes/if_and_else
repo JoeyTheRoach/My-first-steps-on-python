@@ -1,0 +1,6 @@
+Hugs = input('Напиши yes, если обнимешь меня, и no, если нет')
+if Hugs.lower() == 'yes':
+    result = 'Я счастлив'
+else:
+    result = 'Я сам тогда тебя обниму'
+print(result)
